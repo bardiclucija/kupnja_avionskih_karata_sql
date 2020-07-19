@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3BAEABA-064C-BADA-7AA2-9A29D3036F81" name="PUTNIK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>D87312B9-2367-5E53-7EEF-D4DBB7740D0F</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Putnik_id" id="70F8FBCD-47D0-198B-7A39-1E6D1AD5DE22">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>5EDE9FFD-2E5F-3CED-5F8A-0D48D182FDF1</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="F3A92CFC-7C60-4193-6347-B1C683E00E63">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>2582D1E7-E548-D7F0-9DBA-C1E5AC8E789A</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="63A05B48-B5C2-1F84-5DAC-EDBC0E703C06">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>CE16F5CE-DD04-D46C-BE76-35E1200F758C</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_rodj" id="10DC42B2-86B0-5084-F23B-7EF90DBA3BFA">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>27A62857-45A9-702F-E455-962A1858CE8D</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E-mail" id="CB104E5B-544E-D21D-E4EA-782C547BA443">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>DC0023BC-A817-46B6-E4BE-544C49D73ABF</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Država" id="EA3C39D4-1FE8-F4D2-0B75-2BEA65A03D61">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>0A483925-CA90-46A8-3C10-3F18B547E241</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_putovnice" id="95C9AB75-ECB2-B769-90E3-89631B463EF7">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>182CF0A1-F43B-E7FD-5C27-6C033CE5F447</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62AF83A7-703A-A3E5-8F43-9E3066D5F7AF" name="PUTNIK_PK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>07B5112B-186F-54F5-E4BD-450676BA6657</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70F8FBCD-47D0-198B-7A39-1E6D1AD5DE22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

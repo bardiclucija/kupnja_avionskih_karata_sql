@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C27E819-5164-0000-BACB-9BFA72864184" name="MILJE">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:32:41 UTC</createdTime>
+<generatorID>F50F1490-56D2-FAB3-8F5C-6A3E15222E40</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Frequent_flyer_nr" id="F0F85F44-DF45-EB47-7AF6-B1EBA6717C02">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:32:41 UTC</createdTime>
+<generatorID>753D9F29-3ED6-B92E-9901-E00394C031D8</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Milje_po_letu" id="BBD98AE1-76C8-E9D8-23DA-4C8045777921">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:32:41 UTC</createdTime>
+<generatorID>09DB480D-6C25-E5B1-58F8-C10C3666173C</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KUPAC_Kupac_id" id="D5974913-2415-9BA4-39B8-873AEFBD2C2B">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:32:41 UTC</createdTime>
+<generatorID>885FDC8E-9D22-0E56-A0D2-3E0D46B42961</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78D16FA7-7AC9-C7DB-9BBE-380239092441" referredColumn="E2BA0AC3-3931-7330-E528-7E1B58157423"/>
+</associations>
+</Column>
+<Column name="KUPOVINA_Kupovina_id1" id="5B4B29FB-624E-0B8A-DF39-A9918D005996">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:32:41 UTC</createdTime>
+<generatorID>CAAA16E6-246B-E147-9451-D26E00F5E2AA</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BEFCD82-C79C-136E-3886-7AAAFF367B98" referredColumn="405CC83C-4B1F-3DA6-1AA5-0BD81B954839"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F0A0EF72-ECC2-5714-3874-C6BAF23DFE5E" name="MILJE_PK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:32:41 UTC</createdTime>
+<generatorID>9D643E1B-09BD-5329-26DC-2DCEE9C13012</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B4B29FB-624E-0B8A-DF39-A9918D005996"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C457260-3957-219B-8C80-C0E73B2B4DB8" name="MILJE_KUPAC_FK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:32:41 UTC</createdTime>
+<generatorID>627760F1-434A-8DE5-7EF4-4219543B732E</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5974913-2415-9BA4-39B8-873AEFBD2C2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1B681C0-8E60-9CC4-8B0B-604E76DB6109" name="MILJE_KUPOVINA_FK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:32:41 UTC</createdTime>
+<generatorID>1BF90EDE-6C9D-08A5-110A-2902735491B1</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B4B29FB-624E-0B8A-DF39-A9918D005996"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

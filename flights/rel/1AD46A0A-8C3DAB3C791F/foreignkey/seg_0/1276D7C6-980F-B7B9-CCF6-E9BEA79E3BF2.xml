@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1276D7C6-980F-B7B9-CCF6-E9BEA79E3BF2" containerWithKeyObject="D8235B85-2A03-D4B6-3DA0-E8155C3388E5" localFKIndex="A0B4E408-F205-9CC6-8441-18D2EEF43754" name="KARTA_DETALJI_LETA_FK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:31:46 UTC</createdTime>
+<generatorID>F82D0468-8A6F-86D1-01BF-6438C905A0DE</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<referredTableLongName>DETALJI_LETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>61ECB2CF-A8DB-A470-A822-2698623A44EF</referredTableID>
+<keyObject>FEF7ACB0-B02C-D653-8ACB-D5EAB1250619</keyObject>
+<referredKeyID>FEF7ACB0-B02C-D653-8ACB-D5EAB1250619</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Broj_leta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

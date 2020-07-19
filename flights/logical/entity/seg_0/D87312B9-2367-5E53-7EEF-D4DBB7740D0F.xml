@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D87312B9-2367-5E53-7EEF-D4DBB7740D0F" name="PUTNIK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:32:30 UTC</createdTime>
+<ownerDesignName>flights</ownerDesignName>
+<engineerTo>
+<item key="1AD46A0A-2DCB-1507-715D-8C3DAB3C791F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Putnik_id" id="5EDE9FFD-2E5F-3CED-5F8A-0D48D182FDF1">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:33:57 UTC</createdTime>
+<ownerDesignName>flights</ownerDesignName>
+<engineerTo>
+<item key="1AD46A0A-2DCB-1507-715D-8C3DAB3C791F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime" id="2582D1E7-E548-D7F0-9DBA-C1E5AC8E789A">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:34:16 UTC</createdTime>
+<ownerDesignName>flights</ownerDesignName>
+<engineerTo>
+<item key="1AD46A0A-2DCB-1507-715D-8C3DAB3C791F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prezime" id="CE16F5CE-DD04-D46C-BE76-35E1200F758C">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:34:41 UTC</createdTime>
+<ownerDesignName>flights</ownerDesignName>
+<engineerTo>
+<item key="1AD46A0A-2DCB-1507-715D-8C3DAB3C791F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_rodj" id="27A62857-45A9-702F-E455-962A1858CE8D">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:35:35 UTC</createdTime>
+<ownerDesignName>flights</ownerDesignName>
+<engineerTo>
+<item key="1AD46A0A-2DCB-1507-715D-8C3DAB3C791F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="E-mail" id="DC0023BC-A817-46B6-E4BE-544C49D73ABF">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:35:51 UTC</createdTime>
+<ownerDesignName>flights</ownerDesignName>
+<engineerTo>
+<item key="1AD46A0A-2DCB-1507-715D-8C3DAB3C791F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Država" id="0A483925-CA90-46A8-3C10-3F18B547E241">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:36:28 UTC</createdTime>
+<ownerDesignName>flights</ownerDesignName>
+<engineerTo>
+<item key="1AD46A0A-2DCB-1507-715D-8C3DAB3C791F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_putovnice" id="182CF0A1-F43B-E7FD-5C27-6C033CE5F447">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:36:44 UTC</createdTime>
+<ownerDesignName>flights</ownerDesignName>
+<engineerTo>
+<item key="1AD46A0A-2DCB-1507-715D-8C3DAB3C791F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07B5112B-186F-54F5-E4BD-450676BA6657" name="KUPAC PK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:34:14 UTC</createdTime>
+<ownerDesignName>flights</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1AD46A0A-2DCB-1507-715D-8C3DAB3C791F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5EDE9FFD-2E5F-3CED-5F8A-0D48D182FDF1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

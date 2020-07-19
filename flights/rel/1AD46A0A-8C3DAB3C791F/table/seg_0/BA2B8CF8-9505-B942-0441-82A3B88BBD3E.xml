@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA2B8CF8-9505-B942-0441-82A3B88BBD3E" name="AVIOKOMPANIJA">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:35:44 UTC</createdTime>
+<generatorID>8926E6F2-3DA2-FD67-9ABD-6C3303B58D4C</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Avio_naziv" id="FBD37F54-8AD0-5DD5-F14B-A0ABE78C5D7A">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:35:44 UTC</createdTime>
+<generatorID>F5393BE3-3249-B732-29B2-C67F1A7CB50D</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6954006A-4831-DF06-A11A-DAC6FB617D5E" name="AVIOKOMPANIJA_PK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:35:44 UTC</createdTime>
+<generatorID>775F804F-A713-8433-9118-D0039B8E5ECD</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBD37F54-8AD0-5DD5-F14B-A0ABE78C5D7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

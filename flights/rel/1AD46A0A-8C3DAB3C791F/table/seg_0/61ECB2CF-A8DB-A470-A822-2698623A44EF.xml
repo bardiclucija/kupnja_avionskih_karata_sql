@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61ECB2CF-A8DB-A470-A822-2698623A44EF" name="DETALJI_LETA">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:31:46 UTC</createdTime>
+<generatorID>1D29060C-F1A5-22B6-3893-25C6D9FF92EC</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Let_id" id="827472A2-980E-5B04-D85A-D2915D7AD38E">
+<createdBy>38595</createdBy>
+<createdTime>2020-07-01 21:01:18 UTC</createdTime>
+<generatorID>FAADE167-0E31-AAD2-3806-616532BCECE3</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_leta" id="C6344CE0-1AD1-E1DA-1BDA-6D392ACC434D">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:31:46 UTC</createdTime>
+<generatorID>54704BD7-5824-9099-C8F5-4549F487C1ED</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Polazak" id="3D3C6844-64E0-FBE7-C2FB-02563992650E">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:31:46 UTC</createdTime>
+<generatorID>16B83EB2-EF97-AC97-A05B-C9C4CCB6BC65</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dolazak" id="A8B28730-A1B4-1308-9E32-FD8E8323FE99">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:31:46 UTC</createdTime>
+<generatorID>9C5A3981-AAD1-294A-AD05-1C352CAB7571</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vrijeme_polaska" id="DCA48DE8-C442-11A7-B682-A9D5F2B851AC">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:31:46 UTC</createdTime>
+<generatorID>0ED827CE-23A2-9644-CF6B-83AE31FED1A2</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vrijeme_dolaska" id="E0F88DF0-552E-15CB-7D7F-9D70E6CE8883">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:31:46 UTC</createdTime>
+<generatorID>D2B939A2-1D1A-0662-D1AB-BD3A470CE4B5</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AVIOKOMPANIJA_Avio_naziv" id="0F53730E-B8E8-6131-EA9C-7F91F95CEAE8">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:35:44 UTC</createdTime>
+<generatorID>DCA3837E-BF51-EBA4-0DB7-8FA05F4D6A62</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDE3FFC6-B5D6-D95B-0CE3-278317241315" referredColumn="FBD37F54-8AD0-5DD5-F14B-A0ABE78C5D7A"/>
+</associations>
+</Column>
+<Column name="AVION_Avion_id" id="65EFA823-AEA9-E898-DA6A-DBE2B0EC0051">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:35:44 UTC</createdTime>
+<generatorID>D90B811A-DE74-7857-CF09-90B454660011</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CFC364A-97D4-BB28-25F3-EF7756D74BE6" referredColumn="B3660A3E-7A0E-CA59-089E-85D029C067A2"/>
+</associations>
+</Column>
+<Column name="Datum_polaska" id="1C2D4CE0-107D-3E9A-7319-726128411E0F">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-30 22:30:20 UTC</createdTime>
+<generatorID>D7FC2744-DC7B-528A-FD77-079DF49EB54A</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum_dolaska" id="004FBB15-84DD-F7C9-2AF0-374711397109">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-30 22:30:20 UTC</createdTime>
+<generatorID>45795E72-E409-55C1-C872-DDDCF23486E3</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEF7ACB0-B02C-D653-8ACB-D5EAB1250619" name="DETALJI_LETA_PK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:31:46 UTC</createdTime>
+<generatorID>0DBD57EA-2A8F-FD15-8170-B28C7D6C105A</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="827472A2-980E-5B04-D85A-D2915D7AD38E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59DCCEAD-05A0-F2B6-B469-41968EA76C2B" name="DETALJI_LETA_AVIOKOMPANIJA_FK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:35:44 UTC</createdTime>
+<generatorID>FACC9851-F23C-74C7-019C-C732A97CE5AF</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F53730E-B8E8-6131-EA9C-7F91F95CEAE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1488CBC3-21CD-571C-CE4F-054B49E183C7" name="DETALJI_LETA_AVION_FK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:35:44 UTC</createdTime>
+<generatorID>C341E4E1-1CE6-6D53-D89F-1A21AF1DA3E0</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65EFA823-AEA9-E898-DA6A-DBE2B0EC0051"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

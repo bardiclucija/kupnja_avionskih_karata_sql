@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="42A056C0-589A-7E2E-DF83-9DA6EFEC42A6" name="FKArc_3">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:58:59 UTC</createdTime>
+<ownerDesignName>flights</ownerDesignName>
+<mandatory>true</mandatory>
+<table>1A963340-59D9-F8C2-87A7-384D24E7FE67</table>
+<fkeys>
+<fkeyID>09833ED3-C2EC-C849-B74D-8398F6BAAF96</fkeyID>
+<fkeyID>CC09ADF0-9F33-0C3A-6A4B-37FBC7FB7600</fkeyID>
+</fkeys>
+</FKArc>

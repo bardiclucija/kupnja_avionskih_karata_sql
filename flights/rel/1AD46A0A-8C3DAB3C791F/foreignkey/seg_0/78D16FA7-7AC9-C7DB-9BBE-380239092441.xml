@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="78D16FA7-7AC9-C7DB-9BBE-380239092441" containerWithKeyObject="9C27E819-5164-0000-BACB-9BFA72864184" localFKIndex="9C457260-3957-219B-8C80-C0E73B2B4DB8" name="MILJE_KUPAC_FK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:32:41 UTC</createdTime>
+<generatorID>627760F1-434A-8DE5-7EF4-4219543B732E</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<referredTableLongName>KUPAC</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>159E4BA8-500A-33F7-D3FF-BBF99E8DAC23</referredTableID>
+<keyObject>B202ECBA-BBAE-9528-2909-A37A320E2317</keyObject>
+<referredKeyID>B202ECBA-BBAE-9528-2909-A37A320E2317</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Kupac_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="15B521EC-467D-E0A0-339F-5EDBE39C50B1" containerWithKeyObject="785BA84D-3714-9A85-09C0-1A146B97B27E" localFKIndex="97C77F95-5A4D-17EB-1506-5ABEA4A3F1ED" name="KUPOVINA_AGENCIJA_AGENCIJA_FK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>FF63EAA9-6255-D4A2-74F4-E0ABA88E474D</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<referredTableLongName>AGENCIJA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BA7B25A6-5C9E-649B-C3BD-E7AF2A7CDCC3</referredTableID>
+<keyObject>3CFD76CF-A860-2AEC-46B3-0E4AD667126A</keyObject>
+<referredKeyID>3CFD76CF-A860-2AEC-46B3-0E4AD667126A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Agencija_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

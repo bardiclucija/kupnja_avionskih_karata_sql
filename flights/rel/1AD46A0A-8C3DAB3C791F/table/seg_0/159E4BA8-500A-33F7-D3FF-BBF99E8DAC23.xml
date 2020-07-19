@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="159E4BA8-500A-33F7-D3FF-BBF99E8DAC23" name="KUPAC">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>91FFC1B2-CBA8-69E3-4365-BEEA14478108</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kupac_id" id="E2BA0AC3-3931-7330-E528-7E1B58157423">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>18E139DC-9824-8C89-8904-59712DE7862D</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="471CABE7-1FE3-5A32-95D3-4BDC2D18ECFD">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>389980F6-5B59-F701-5E7D-8E1198EE3048</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="FB1E1B57-86B2-187D-4FA1-A2A8C8A02EE6">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>FF3B58EF-D103-616E-A264-F9D3885DF802</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="C07EB82E-6863-C1A3-C33E-77E0CA2638B0">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-25 19:04:00 UTC</createdTime>
+<generatorID>3C280443-ABF2-5A6D-94EC-57C1722CD767</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B202ECBA-BBAE-9528-2909-A37A320E2317" name="KUPAC_PK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>DCA6C30D-724E-AAF0-2241-96AB33DD4002</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2BA0AC3-3931-7330-E528-7E1B58157423"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

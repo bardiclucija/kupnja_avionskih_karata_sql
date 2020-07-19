@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EDE3FFC6-B5D6-D95B-0CE3-278317241315" containerWithKeyObject="61ECB2CF-A8DB-A470-A822-2698623A44EF" localFKIndex="59DCCEAD-05A0-F2B6-B469-41968EA76C2B" name="DETALJI_LETA_AVIOKOMPANIJA_FK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:35:44 UTC</createdTime>
+<generatorID>FACC9851-F23C-74C7-019C-C732A97CE5AF</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<referredTableLongName>AVIOKOMPANIJA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BA2B8CF8-9505-B942-0441-82A3B88BBD3E</referredTableID>
+<keyObject>6954006A-4831-DF06-A11A-DAC6FB617D5E</keyObject>
+<referredKeyID>6954006A-4831-DF06-A11A-DAC6FB617D5E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Avio_naziv</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

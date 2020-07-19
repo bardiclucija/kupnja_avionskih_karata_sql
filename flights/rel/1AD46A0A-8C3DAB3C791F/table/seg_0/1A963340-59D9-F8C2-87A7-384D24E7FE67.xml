@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A963340-59D9-F8C2-87A7-384D24E7FE67" name="KUPOVINA">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>B6ADA808-F896-EA56-CDEB-9694769FB39F</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kupovina_id" id="8930861E-6F05-A7D3-1720-1616346E9F41">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>8E971FB4-0084-38A0-498E-86CE17317FAA</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nacin_placanja" id="FA0BBC68-3084-AD08-EBC9-965A17A7E7D9">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>D15E6DB3-2082-5893-19EB-EEA4301358E6</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<constraintName>CH_INH_KUPOVINA</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>19</dataTypeSize>
+<listOfValues>
+<valueDef value="KUPOVINA" description="entity KUPOVINA"/>
+<valueDef value="KUPOVINA_AGENCIJA" description="entity KUPOVINA_AGENCIJA"/>
+<valueDef value="KUPOVINA_SAMOSTALNA" description="entity KUPOVINA_SAMOSTALNA"/>
+</listOfValues>
+<ownDataTypeParameters>19,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="KUPAC_Kupac_id" id="1BA41CC8-AA30-E2E3-1D2A-04DCBDDED4F1">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>4B56089D-69F6-CEAC-1E3F-58AA6E6C88B2</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE5AC679-72DE-9FB7-424B-0A8E8AD5E9BC" referredColumn="E2BA0AC3-3931-7330-E528-7E1B58157423"/>
+</associations>
+</Column>
+<Column name="Kupovina_id2" id="405CC83C-4B1F-3DA6-1AA5-0BD81B954839">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:58:59 UTC</createdTime>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09833ED3-C2EC-C849-B74D-8398F6BAAF96" referredColumn="704A31C3-EF3C-9BFD-9373-ACE05B86FCC9"/>
+</associations>
+</Column>
+<Column name="Kupovina_id3" id="66372708-54AC-1BD0-5E4A-83538058063A">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:58:59 UTC</createdTime>
+<ownerDesignName>flights</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CC09ADF0-9F33-0C3A-6A4B-37FBC7FB7600" referredColumn="7346D6DE-CF48-A251-A9EC-5764A973A23F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="90F4D96C-742C-6C2C-F6B0-31F729F7993E" name="KUPOVINA_PK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>9CFB9E50-8FA3-1BE6-2F42-ACAFB14580D9</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="405CC83C-4B1F-3DA6-1AA5-0BD81B954839"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="464BBB49-3D61-2372-4EEB-C92ACE541F2F" name="KUPOVINA_KUPAC_FK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>1CD4ADFC-2579-2247-4679-229EAD19F8D4</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BA41CC8-AA30-E2E3-1D2A-04DCBDDED4F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DDA7EBD-4636-0FCF-A519-55685EF9A33E" name="KUPOVINA_KUPOVINA_AGENCIJA_FK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:58:59 UTC</createdTime>
+<generatorID>BD8ED724-3152-5F28-6F58-F204BE355ED8</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="405CC83C-4B1F-3DA6-1AA5-0BD81B954839"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C19ABB1-E6BD-2740-F39C-D56C1B282A79" name="KUPOVINA_KUPOVINA_SAMOSTALNA_FK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:58:59 UTC</createdTime>
+<generatorID>3D52AB5A-B982-2C65-F5DC-2B15C4662C93</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66372708-54AC-1BD0-5E4A-83538058063A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

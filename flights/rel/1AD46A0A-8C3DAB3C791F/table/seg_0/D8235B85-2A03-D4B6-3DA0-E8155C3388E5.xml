@@ -1,0 +1,244 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8235B85-2A03-D4B6-3DA0-E8155C3388E5" name="KARTA">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>E03ACC42-D1AB-74C7-A0E8-A974C40777C2</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Broj_karte" id="94B621A7-6ACF-F671-5563-93A782C54EEB">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>942FA353-1F22-D774-D2DB-7E6D75327ACA</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cijena_karte" id="29288EB1-AB3D-DCEF-436C-49C3A9E35C9A">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>934C0D81-AD98-2B2B-549A-523C2FF44CFB</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klasa" id="02DD53F9-05E8-7E77-ED54-3AD6E7CBD319">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>184E7D37-F54E-5054-54CD-AD74098AF938</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Broj_sjedala" id="678747E3-2A5A-C1C9-8A41-5D0FD506C27B">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>5F4AD8F0-AE86-32A5-2DF8-C1927A5077FB</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cijena_prtljage" id="6726CEC7-93EB-F6FD-D5BD-68E7EBE0C67D">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-25 14:29:01 UTC</createdTime>
+<generatorID>BF625B97-4909-992B-C2CC-AE9CA312BF6E</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Težina_prtljage" id="2F81D163-DD76-543D-DE53-C3DAED57EE87">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-25 14:29:01 UTC</createdTime>
+<generatorID>16A72E1E-46DA-22F7-C3EA-867645E8EAC0</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kolicina_prtljage" id="7F1B7267-7649-5408-68B0-DFCF176C1381">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-25 14:29:01 UTC</createdTime>
+<generatorID>C2E671C5-F19D-622D-18FD-449BAA7B5865</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cijena_hrane" id="F4FA05AF-3A1D-9062-EA8D-0848877DE69C">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-25 14:29:01 UTC</createdTime>
+<generatorID>FB8DE191-854E-D02A-C04F-5360B42A8FD4</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cijena_osiguranja" id="C4E940AF-934C-D2BE-9F69-61AEDB00BA82">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-25 14:29:01 UTC</createdTime>
+<generatorID>CBFB3D81-F8FC-F1E5-C9CD-6471E24A7BD4</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Trajanje_osiguranja" id="A321858B-10D7-A3F8-CBF4-BBE5A82192B0">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-25 14:29:01 UTC</createdTime>
+<generatorID>2AE8372C-412C-AB2A-7273-3E63B925D506</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cijena_lounge_salona" id="DF8116CB-D3CD-F3FE-82BE-7D5349D8272B">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-25 14:29:01 UTC</createdTime>
+<generatorID>28B359CB-6A76-6C71-820A-1D071274A936</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUTNIK_Putnik_id" id="668DB9FA-B997-4416-415A-CBFDB5F3713E">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>A4E1340F-3905-AC04-788A-390CE55A11D7</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B00EF17A-1F50-BACD-DA6E-5385BA102C3F" referredColumn="70F8FBCD-47D0-198B-7A39-1E6D1AD5DE22"/>
+</associations>
+</Column>
+<Column name="KUPOVINA_Kupovina_id1" id="5C31B8ED-5A4D-3225-A4F8-D9616FB278A6">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>FC2FC833-374F-67AF-965C-AE0311CD6FCC</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="305DC215-6DB8-F953-8920-5B83A88D538E" referredColumn="405CC83C-4B1F-3DA6-1AA5-0BD81B954839"/>
+</associations>
+</Column>
+<Column name="Let_id" id="9A4A4CC4-B57B-7D51-3A37-F7A439A8CEDE">
+<createdBy>38595</createdBy>
+<createdTime>2020-07-01 21:01:18 UTC</createdTime>
+<generatorID>B156F5E6-8C75-21F7-0EFA-A8B8C5E84B96</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1276D7C6-980F-B7B9-CCF6-E9BEA79E3BF2" referredColumn="827472A2-980E-5B04-D85A-D2915D7AD38E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F482A78D-AC82-C511-9002-309E1DF78C49" name="KARTA_PK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>77F29430-1261-4808-C080-B528C075CCA1</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94B621A7-6ACF-F671-5563-93A782C54EEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D67CD6F4-F86A-1AD3-2DDD-FCAB1FAC00C4" name="KARTA_PUTNIK_FK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>E9035ABE-DE28-4A3B-DCFB-69EFF285A19A</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="668DB9FA-B997-4416-415A-CBFDB5F3713E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F743AFB-2580-F259-3CE5-24B91774E4E6" name="KARTA_KUPOVINA_FK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>F519715A-27B9-7CB1-ACA7-9680492D77CF</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C31B8ED-5A4D-3225-A4F8-D9616FB278A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A0B4E408-F205-9CC6-8441-18D2EEF43754" name="KARTA_DETALJI_LETA_FK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:31:46 UTC</createdTime>
+<generatorID>F82D0468-8A6F-86D1-01BF-6438C905A0DE</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A4A4CC4-B57B-7D51-3A37-F7A439A8CEDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

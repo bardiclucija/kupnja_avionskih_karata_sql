@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B00EF17A-1F50-BACD-DA6E-5385BA102C3F" containerWithKeyObject="D8235B85-2A03-D4B6-3DA0-E8155C3388E5" localFKIndex="D67CD6F4-F86A-1AD3-2DDD-FCAB1FAC00C4" name="KARTA_PUTNIK_FK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:57:33 UTC</createdTime>
+<generatorID>E9035ABE-DE28-4A3B-DCFB-69EFF285A19A</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<referredTableLongName>PUTNIK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C3BAEABA-064C-BADA-7AA2-9A29D3036F81</referredTableID>
+<keyObject>62AF83A7-703A-A3E5-8F43-9E3066D5F7AF</keyObject>
+<referredKeyID>62AF83A7-703A-A3E5-8F43-9E3066D5F7AF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Putnik_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

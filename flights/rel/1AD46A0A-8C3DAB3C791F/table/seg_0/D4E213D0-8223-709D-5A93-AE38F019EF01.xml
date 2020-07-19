@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4E213D0-8223-709D-5A93-AE38F019EF01" name="AVION">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:35:44 UTC</createdTime>
+<generatorID>A7B2903F-BB74-201F-6BC6-85C35BA24018</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Avion_id" id="B3660A3E-7A0E-CA59-089E-85D029C067A2">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:35:44 UTC</createdTime>
+<generatorID>8D5A97A9-2842-3E5E-8E0B-D94EA8950E99</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip" id="FD6F1208-55C3-EA1D-AE69-7DEA878BB090">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:35:44 UTC</createdTime>
+<generatorID>93052A26-E49A-5262-46DC-5F33B0961630</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ukupno_sjedala" id="4485DB34-1706-29F0-21A5-64754E436870">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:35:44 UTC</createdTime>
+<generatorID>876BC3EF-5EA2-E07E-FEE3-5E5CF386F00D</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F970BA6-9E40-1B3E-3B99-C1937E30A3CA" name="AVION_PK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-16 18:35:44 UTC</createdTime>
+<generatorID>6A6C0386-9059-40BA-BEA5-D7643B1A2343</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3660A3E-7A0E-CA59-089E-85D029C067A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

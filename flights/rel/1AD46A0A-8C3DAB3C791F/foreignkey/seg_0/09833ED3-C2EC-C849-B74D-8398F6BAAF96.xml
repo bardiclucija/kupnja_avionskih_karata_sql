@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="09833ED3-C2EC-C849-B74D-8398F6BAAF96" containerWithKeyObject="1A963340-59D9-F8C2-87A7-384D24E7FE67" localFKIndex="2DDA7EBD-4636-0FCF-A519-55685EF9A33E" name="KUPOVINA_KUPOVINA_AGENCIJA_FK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:58:59 UTC</createdTime>
+<generatorID>BD8ED724-3152-5F28-6F58-F204BE355ED8</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<referredTableLongName>KUPOVINA_AGENCIJA</referredTableLongName>
+<arc>42A056C0-589A-7E2E-DF83-9DA6EFEC42A6</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>785BA84D-3714-9A85-09C0-1A146B97B27E</referredTableID>
+<keyObject>02D9DE4B-C97A-B3FE-6F96-6BC3D444D9C2</keyObject>
+<referredKeyID>02D9DE4B-C97A-B3FE-6F96-6BC3D444D9C2</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Kupovina_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

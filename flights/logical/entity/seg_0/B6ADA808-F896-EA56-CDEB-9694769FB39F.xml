@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6ADA808-F896-EA56-CDEB-9694769FB39F" name="KUPOVINA">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:32:42 UTC</createdTime>
+<ownerDesignName>flights</ownerDesignName>
+<engineerTo>
+<item key="1AD46A0A-2DCB-1507-715D-8C3DAB3C791F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<subtypesRefType>Arc implementation</subtypesRefType>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>D15E6DB3-2082-5893-19EB-EEA4301358E6</discriminatorAttributeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Kupovina_id" id="8E971FB4-0084-38A0-498E-86CE17317FAA">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:38:12 UTC</createdTime>
+<ownerDesignName>flights</ownerDesignName>
+<engineerTo>
+<item key="1AD46A0A-2DCB-1507-715D-8C3DAB3C791F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nacin_placanja" id="D15E6DB3-2082-5893-19EB-EEA4301358E6">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:38:26 UTC</createdTime>
+<ownerDesignName>flights</ownerDesignName>
+<engineerTo>
+<item key="1AD46A0A-2DCB-1507-715D-8C3DAB3C791F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kupac_id" id="4B56089D-69F6-CEAC-1E3F-58AA6E6C88B2">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:53:22 UTC</createdTime>
+<generatorID>1CD4ADFC-2579-2247-4679-229EAD19F8D4</generatorID>
+<ownerDesignName>flights</ownerDesignName>
+<engineerTo>
+<item key="1AD46A0A-2DCB-1507-715D-8C3DAB3C791F" value="true"/>
+</engineerTo>
+<referedAttribute>18E139DC-9824-8C89-8904-59712DE7862D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9CFB9E50-8FA3-1BE6-2F42-ACAFB14580D9" name="KUPOVINA PK">
+<createdBy>38595</createdBy>
+<createdTime>2020-06-12 19:38:24 UTC</createdTime>
+<ownerDesignName>flights</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="1AD46A0A-2DCB-1507-715D-8C3DAB3C791F" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E971FB4-0084-38A0-498E-86CE17317FAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
